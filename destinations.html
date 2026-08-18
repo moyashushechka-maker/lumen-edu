@@ -41,23 +41,38 @@
     <div class="dest-shell">
       <div class="dest-tabs">
         <button class="dest-tab active" data-target="poland">
-          <span><span class="name">Польща</span><span class="tag">Без НМТ · від $800</span></span>
+          <span class="name-row">
+            <span class="flag-icon"><svg viewBox="0 0 3 2"><rect width="3" height="1" fill="#fff"/><rect y="1" width="3" height="1" fill="#dc143c"/></svg></span>
+            <span><span class="name">Польща</span><span class="tag">Без НМТ · від $800</span></span>
+          </span>
           <span class="dot"></span>
         </button>
         <button class="dest-tab" data-target="italy">
-          <span><span class="name">Італія</span><span class="tag">Стипендія DSU · від $1600</span></span>
+          <span class="name-row">
+            <span class="flag-icon"><svg viewBox="0 0 3 2"><rect width="1" height="2" fill="#009246"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#ce2b37"/></svg></span>
+            <span><span class="name">Італія</span><span class="tag">Стипендія DSU · від $1600</span></span>
+          </span>
           <span class="dot"></span>
         </button>
         <button class="dest-tab" data-target="slovakia">
-          <span><span class="name">Словаччина</span><span class="tag">Безкоштовно · від $1000</span></span>
+          <span class="name-row">
+            <span class="flag-icon"><svg viewBox="0 0 3 2"><rect width="3" height="2" fill="#fff"/><rect y="0.667" width="3" height="1.333" fill="#0b4ea2"/><rect y="1.333" width="3" height="0.667" fill="#ee1c25"/><g transform="translate(0.85,1)"><rect x="-0.09" y="-0.38" width="0.18" height="0.76" fill="#fff"/><rect x="-0.27" y="-0.09" width="0.54" height="0.18" fill="#fff"/></g></svg></span>
+            <span><span class="name">Словаччина</span><span class="tag">Безкоштовно · від $1000</span></span>
+          </span>
           <span class="dot"></span>
         </button>
         <button class="dest-tab" data-target="austria">
-          <span><span class="name">Австрія</span><span class="tag">Мова з А2 · від $2500</span></span>
+          <span class="name-row">
+            <span class="flag-icon"><svg viewBox="0 0 3 2"><rect width="3" height="2" fill="#fff"/><rect width="3" height="0.667" fill="#ed2939"/><rect y="1.333" width="3" height="0.667" fill="#ed2939"/></svg></span>
+            <span><span class="name">Австрія</span><span class="tag">Мова з А2 · від $2500</span></span>
+          </span>
           <span class="dot"></span>
         </button>
         <button class="dest-tab" data-target="china">
-          <span><span class="name">Китай</span><span class="tag">Гранти CSC · від $1100</span></span>
+          <span class="name-row">
+            <span class="flag-icon"><svg viewBox="0 0 3 2"><rect width="3" height="2" fill="#de2910"/><g fill="#ffde00"><polygon points="0.5,0.25 0.59,0.53 0.88,0.53 0.65,0.7 0.74,0.98 0.5,0.81 0.26,0.98 0.35,0.7 0.12,0.53 0.41,0.53"/><circle cx="0.95" cy="0.15" r="0.045"/><circle cx="1.05" cy="0.32" r="0.045"/><circle cx="1.02" cy="0.52" r="0.045"/><circle cx="0.9" cy="0.62" r="0.045"/></g></svg></span>
+            <span><span class="name">Китай</span><span class="tag">Гранти CSC · від $1100</span></span>
+          </span>
           <span class="dot"></span>
         </button>
       </div>
@@ -67,7 +82,7 @@
         <!-- POLAND -->
         <div class="dest-panel active" id="poland">
           <span class="eyebrow">Напрямок 01</span>
-          <h2 style="font-style:italic;">Польща</h2>
+          <div class="panel-title"><span class="flag-icon"><svg viewBox="0 0 3 2"><rect width="3" height="1" fill="#fff"/><rect y="1" width="3" height="1" fill="#dc143c"/></svg></span><h2>Польща</h2></div>
           <p style="font-size:1.05rem; max-width:640px;">Європейський диплом, безпека та 100% гарантія зарахування. Найпопулярніший та комерційно надійний напрямок для швидкого виїзду в ЄС — для тих, хто хоче гарантований результат без нервів, вступних іспитів та конкурсів.</p>
           <div class="price-tag">Вартість супроводу · <b>$800</b></div>
           <p style="font-size:.88rem; color:var(--ink-faint); margin-top:-1em;">Державні мита, консульські збори та послуги присяжного перекладача оплачуються батьками окремо за чеками.</p>
@@ -83,7 +98,7 @@
         <!-- ITALY -->
         <div class="dest-panel" id="italy">
           <span class="eyebrow">Напрямок 02</span>
-          <h2 style="font-style:italic;">Італія</h2>
+          <div class="panel-title"><span class="flag-icon"><svg viewBox="0 0 3 2"><rect width="1" height="2" fill="#009246"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#ce2b37"/></svg></span><h2>Італія</h2></div>
           <p style="font-size:1.05rem; max-width:640px;">Англомовний бакалавріат та повне фінансове забезпечення (стипендіальні програми DSU). Преміальний напрямок для тих, хто орієнтований на освіту англійською мовою в найстаріших університетах Європи.</p>
           <div class="price-tag">Вартість повного супроводу · <b>$1 600</b></div>
 
@@ -97,7 +112,7 @@
         <!-- SLOVAKIA -->
         <div class="dest-panel" id="slovakia">
           <span class="eyebrow">Напрямок 03</span>
-          <h2 style="font-style:italic;">Словаччина</h2>
+          <div class="panel-title"><span class="flag-icon"><svg viewBox="0 0 3 2"><rect width="3" height="2" fill="#fff"/><rect y="0.667" width="3" height="1.333" fill="#0b4ea2"/><rect y="1.333" width="3" height="0.667" fill="#ee1c25"/><g transform="translate(0.85,1)"><rect x="-0.09" y="-0.38" width="0.18" height="0.76" fill="#fff"/><rect x="-0.27" y="-0.09" width="0.54" height="0.18" fill="#fff"/></g></svg></span><h2>Словаччина</h2></div>
           <p style="font-size:1.05rem; max-width:640px;">Безкоштовна вища освіта за державними квотами Європейського Союзу. Пріоритетний напрямок для абітурієнтів, орієнтованих на європейську освіту на безкоштовній основі — зі збереженням усіх привілеїв європейського диплома.</p>
           <div class="price-tag">Вартість повного супроводу · <b>$1 000</b></div>
 
@@ -111,7 +126,7 @@
         <!-- AUSTRIA -->
         <div class="dest-panel" id="austria">
           <span class="eyebrow">Напрямок 04</span>
-          <h2 style="font-style:italic;">Австрія</h2>
+          <div class="panel-title"><span class="flag-icon"><svg viewBox="0 0 3 2"><rect width="3" height="2" fill="#fff"/><rect width="3" height="0.667" fill="#ed2939"/><rect y="1.333" width="3" height="0.667" fill="#ed2939"/></svg></span><h2>Австрія</h2></div>
           <p style="font-size:1.05rem; max-width:640px;">Елітна європейська освіта та мовна інтеграція на базі державних університетів. Головна перевага — офіційне зарахування з мінімальним початковим рівнем володіння німецькою мовою.</p>
           <div class="price-tag">Вартість повного супроводу · <b>$2 500</b></div>
 
@@ -126,7 +141,7 @@
         <!-- CHINA -->
         <div class="dest-panel" id="china">
           <span class="eyebrow">Напрямок 05</span>
-          <h2 style="font-style:italic;">Китай</h2>
+          <div class="panel-title"><span class="flag-icon"><svg viewBox="0 0 3 2"><rect width="3" height="2" fill="#de2910"/><g fill="#ffde00"><polygon points="0.5,0.25 0.59,0.53 0.88,0.53 0.65,0.7 0.74,0.98 0.5,0.81 0.26,0.98 0.35,0.7 0.12,0.53 0.41,0.53"/><circle cx="0.95" cy="0.15" r="0.045"/><circle cx="1.05" cy="0.32" r="0.045"/><circle cx="1.02" cy="0.52" r="0.045"/><circle cx="0.9" cy="0.62" r="0.045"/></g></svg></span><h2>Китай</h2></div>
           <p style="font-size:1.05rem; max-width:640px;">Глобальне лідерство, технології майбутнього та масштабне субсидування. Унікальне поєднання надсучасних технологій, міжнародного визнання дипломів та гнучких моделей навчання англійською або китайською мовами.</p>
           <div class="price-tag">Контрактне навчання / мовний рік · <b>$1 100</b></div>
           <div class="price-tag" style="margin-left:.8em;">Супровід на гранти CSC · <b>$2 000</b></div>
