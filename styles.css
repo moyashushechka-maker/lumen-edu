@@ -554,3 +554,26 @@ section{ position: relative; }
   border:1px solid var(--gold-pale); color: var(--gold-deep); padding: .5em 1em; border-radius:999px;
   background: rgba(255,255,255,.5);
 }
+
+/* ---------- footer social links ---------- */
+.footer-social{ display:flex; gap:1em; margin-top:1.6em; flex-wrap:wrap; }
+.footer-social a{
+  font-family: var(--f-mono); font-size:.68rem; letter-spacing:.04em; text-transform:uppercase;
+  color: rgba(242,243,248,.75);
+  border: 1px solid var(--line-on-dark);
+  padding: .65em 1.2em;
+  border-radius: 999px;
+  transition: all .35s var(--ease);
+}
+.footer-social a:hover{ color: var(--gold-bright); border-color: var(--gold-bright); }
+
+/* ---------- inline telegram cta (contact page) ---------- */
+.telegram-cta{
+  display:flex; align-items:center; gap:1em; flex-wrap:wrap;
+  background: var(--glass); backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,.7);
+  border-radius: var(--radius-m);
+  padding: 1.3em 1.6em;
+  margin-top: 1.6em;
+}
+.telegram-cta p{ margin:0; font-size:.92rem; flex:1; min-width:180px; }
